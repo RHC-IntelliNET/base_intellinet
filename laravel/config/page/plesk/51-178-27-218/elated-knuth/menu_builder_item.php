@@ -3,26 +3,26 @@
   2 => 
   array (
     'id' => 2,
-    'label' => 'Fonti',
+    'label' => 'Amministrazione',
     'link' => '/it/reports',
     'menu' => 2,
-    'sort' => 2,
+    'sort' => 3,
     'parent' => 0,
-    'class' => NULL,
+    'class' => '',
     'depth' => 0,
-    'role_id' => NULL,
+    'role_id' => 0,
   ),
   3 => 
   array (
     'id' => 3,
-    'label' => 'Keywords',
-    'link' => '/it/keywords',
+    'label' => 'Profilo',
+    'link' => '/it/profile',
     'menu' => 2,
     'sort' => 3,
     'parent' => 0,
-    'class' => NULL,
+    'class' => '',
     'depth' => 0,
-    'role_id' => NULL,
+    'role_id' => 0,
   ),
   4 => 
   array (
