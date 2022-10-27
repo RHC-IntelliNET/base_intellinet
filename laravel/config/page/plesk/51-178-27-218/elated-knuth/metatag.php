@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 return [
-    'title' => 'Food Friend Finder',
+    'title' => 'RHC INTELLINET',
     'sitename' => 'foodfriendfinder',
-    'subtitle' => 'Find restaurants, specials, and coupons for free',
+    'subtitle' => '',
     'sottotitolo_comune' => '',
     'generator' => '',
     'charset' => 'UTF-8',

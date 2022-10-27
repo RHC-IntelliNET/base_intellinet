@@ -7,5 +7,6 @@
     "Cms": true,
     "Theme": true,
     "Tenant": true,
-    "IntelliNet": true
+    "IntelliNet": true,
+    "Chart": true
 }

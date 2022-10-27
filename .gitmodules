@@ -50,3 +50,6 @@
 [submodule "laravel/Themes/AdminLTE"]
 	path = laravel/Themes/AdminLTE
 	url = https://github.com/laraxot/theme_adminlte.git
+[submodule "laravel/Modules/Chart"]
+	path = laravel/Modules/Chart
+	url = https://github.com/laraxot/module_chart.git

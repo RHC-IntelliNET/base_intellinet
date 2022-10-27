@@ -7,5 +7,7 @@
   'page' => 'Modules\IntelliNet\Models\Page',
   'profile' => 'Modules\IntelliNet\Models\Profile',
   'user' => 'Modules\LU\Models\User',
+  'report'=>'Modules\IntelliNet\Models\Report',
+  'keyword'=>'Modules\IntelliNet\Models\Keyword',
   //'widget' => 'Modules\Xot\Models\Widget',
 );
