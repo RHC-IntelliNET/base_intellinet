@@ -1,17 +1,64 @@
 {
-    "php-cs-fixer.configFile": "C:/var/public_html/multi/laravel/.php_cs",
-    "php-cs-fixer.config": "~/.vscode/.php_cs;",
-    "editor.defaultFormatter": "junstyle.php-cs-fixer",
-		"[php]": {
-			"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	"editor.formatOnSave": true,
+	"better-phpunit.phpunitBinary": "phpunit",
+    "php-cs-fixer.onsave": true,
+	"php-cs-fixer.formatHtml": true,
+   	"php-cs-fixer.config": ".php-cs-fixer.php",
+	"vscode-php-cs-fixer.config": ".php-cs-fixer.php",
+	//"php-cs-fixer.executablePath": "php-cs-fixer",
+	"php-cs-fixer.executablePath": "~/.vscode/php-cs-fixer.phar",
+	//"php-cs-fixer.executablePathWindows": "%USERPROFILE%\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",
+	//"php-cs-fixer.executablePathWindows":"~/.vscode/php-cs-fixer",
+	//"php-cs-fixer.executablePathWindows":"~/AppData/Roaming/Composer/vendor/bin/php-cs-fixer.bat",
+	"php-cs-fixer.executablePathWindows": "php-cs-fixer.bat",
+	"vscode-php-cs-fixer.allowRisky": true,
+	"phpmd.enabled": false,
+	"phpmd.validate.rulesets": "cleancode,codesize,controversial,design,naming,unusedcode",
+	"phpmd.SuppressWarnings":true,
+	"phpmd.verbose": false,
+	"php-cs-fixer.allowRisky": true,
+	"phpformatter.composer": true,
+	"editor.defaultFormatter": "junstyle.php-cs-fixer",
+	"[php]": {
+		"editor.defaultFormatter": "junstyle.php-cs-fixer"
+	"editor.defaultFormatter": "junstyle.php-cs-fixer",
+	"[php]": {
+		"editor.defaultFormatter": "fterrag.vscode-php-cs-fixer"
+	},
+	"editor.tokenColorCustomizations": {
+		"semanticHighlighting": true
+	},
+	"[blade]": {
+		"editor.defaultFormatter": "shufo.vscode-blade-formatter"
+	},
+	"vscode-php-cs-fixer.toolPath": ".",
+	"vscode-php-cs-fixer.useCache": true,
+	"editor.wordWrapColumn": 120,
+	"files.eol": "\n",
+	"git.autofetch": "all",
+	"files.exclude": {
+		"**/.git": false
+   },
+   "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[blade]": {
-      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    "GitBash": {
+      "source": "GitBash",
+      "path": ["F:\\Code\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
     }
+  },
+"terminal.integrated.defaultProfile.windows": "GitBash",
+"[json]": {
+	"editor.defaultFormatter": "apility.beautify-blade"
 }

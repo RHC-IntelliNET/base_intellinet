@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "junstyle.php-cs-fixer",
+        "fterrag.vscode-php-cs-fixer"
+    ]
+}

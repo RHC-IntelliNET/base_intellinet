@@ -11,7 +11,11 @@
 		"php-cs-fixer.formatHtml": true,
 		"php-cs-fixer.config": ".php-cs-fixer.php",
 		"vscode-php-cs-fixer.config": ".php-cs-fixer.php",
-		"php-cs-fixer.executablePath": "php-cs-fixer",
+		//"php-cs-fixer.executablePath": "php-cs-fixer",
+		// /home/ubuntu/.vscode/php-cs-fixer.phar
+		"php-cs-fixer.executablePath": "~/.vscode/php-cs-fixer.phar",
+		//"php-cs-fixer.executablePath": ".vscode/php-cs-fixer.phar",
+		
 		"php-cs-fixer.executablePathWindows": "php-cs-fixer.bat",
 		"vscode-php-cs-fixer.allowRisky": true,
 		"phpmd.enabled": false,
