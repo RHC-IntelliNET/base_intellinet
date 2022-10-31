@@ -15,7 +15,7 @@ return [
     'nome_regione' => '',
     'nome_comune' => '',
     'site_title' => '',
-    'logo_img' => '/theme/pub/images/food-picky-logo.png',
+    'logo_img' => 'pub_theme::img/logo.png',
     'logo_footer_img' => '/theme/pub/images/food-picky-logo.png',
     'logo_alt' => 'Logo',
     'hide_megamenu' => false,
